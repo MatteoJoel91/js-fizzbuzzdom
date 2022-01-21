@@ -10,13 +10,13 @@ let containerElement = document.getElementById('container');
 for (i=1; i <=100; i++){
     
     //Condizione multipli di 3 e 5
-    if (i % 3 == 0 && i % 5 ==0){
+    if (i % 3 == 0 && i % 5 == 0){
         console.log("FizzBuzz");
         containerElement.innerHTML = containerElement.innerHTML + "<div class='box4'>" + "FizzBuzz" + "</div>";
     } 
     
     // Condizione multipli di 3
-    else if (i % 3 ==0){
+    else if (i % 3 == 0){
         console.log("Fizz");
         containerElement.innerHTML = containerElement.innerHTML + "<div class='box2'>" + "Fizz" + "</div>";
     }
