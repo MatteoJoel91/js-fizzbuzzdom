@@ -16,6 +16,7 @@ for (let i=1; i <=100; i++){
         // Appendo la stringa "<div class='box4'>" + "testo" + "</div>" a alla variabile <div id="container"></div>
         // Assegno il valore della "stringa" a containerElement
         containerElement.innerHTML += "<div class='box4'>" + "FizzBuzz" + "</div>";
+        // containerElement.innerHTML = containerElement.innerHTML + "<div class='box4'>" + "FizzBuzz" + "</div>";
     } 
     
     // Condizione numeri multipli di 3
