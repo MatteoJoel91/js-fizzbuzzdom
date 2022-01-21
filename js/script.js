@@ -13,7 +13,7 @@ for (let i=1; i <=100; i++){
     if (i % 3 == 0 && i % 5 == 0){
         console.log("FizzBuzz");
         
-        // Appendo la stringa "<div class='box4'>" + "testo" + "</div>" a alla variabile <div id="container"></div>
+        // Appendo la stringa "<div class='box4'>" + "testo" + "</div>" ad .innerHTML di <div id="container"></div>
         // Assegno il valore della "stringa" a containerElement
         containerElement.innerHTML += "<div class='box4'>" + "FizzBuzz" + "</div>";
         // containerElement.innerHTML = containerElement.innerHTML + "<div class='box4'>" + "FizzBuzz" + "</div>";
@@ -22,18 +22,27 @@ for (let i=1; i <=100; i++){
     // Condizione numeri multipli di 3
     else if (i % 3 == 0){
         console.log("Fizz");
+        // Appendo la stringa "<div class='box2'>" + "testo" + "</div>" ad .innerHTML di <div id="container"></div>
+        // Assegno il valore della "stringa" a containerElement
         containerElement.innerHTML += "<div class='box2'>" + "Fizz" + "</div>";
+         // containerElement.innerHTML = containerElement.innerHTML + "<div class='box2'>" + "Fizz" + "</div>";
     }
 
     // Condizione numeri multipli di 5 
     else if (i % 5 == 0){
         console.log("Buzz");
+        // Appendo la stringa "<div class='box3'>" + "testo" + "</div>" ad .innerHTML di <div id="container"></div>
+        // Assegno il valore della "stringa" a containerElement
         containerElement.innerHTML += "<div class='box3'>" + "Buzz" + "</div>";
+         // containerElement.innerHTML = containerElement.innerHTML + "<div class='box3'>" + "Buzz" + "</div>";
     }
 
     // Numeri restanti fuori dalle condizioni 
     else {
         console.log(i);
+        // Appendo la stringa "<div class='box1'>" + "testo" + "</div>" ad .innerHTML di <div id="container"></div>
+        // Assegno il valore della "stringa" a containerElement
         containerElement.innerHTML += "<div class='box1'>" + i + "</div>";
+         // containerElement.innerHTML = containerElement.innerHTML + "<div class='box1'>" + i + "</div>";
     }     
 }
