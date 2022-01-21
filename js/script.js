@@ -12,24 +12,24 @@ for (let i=1; i <=100; i++){
     //Condizione numeri multipli di 3 e 5
     if (i % 3 == 0 && i % 5 == 0){
         console.log("FizzBuzz");
-        containerElement.innerHTML = containerElement.innerHTML + "<div class='box4'>" + "FizzBuzz" + "</div>";
+        containerElement.innerHTML += "<div class='box4'>" + "FizzBuzz" + "</div>";
     } 
     
     // Condizione numeri multipli di 3
     else if (i % 3 == 0){
         console.log("Fizz");
-        containerElement.innerHTML = containerElement.innerHTML + "<div class='box2'>" + "Fizz" + "</div>";
+        containerElement.innerHTML += "<div class='box2'>" + "Fizz" + "</div>";
     }
 
     // Condizione numeri multipli di 5 
     else if (i % 5 == 0){
         console.log("Buzz");
-        containerElement.innerHTML = containerElement.innerHTML + "<div class='box3'>" + "Buzz" + "</div>";
+        containerElement.innerHTML += "<div class='box3'>" + "Buzz" + "</div>";
     }
 
     // Numeri restanti fuori dalle condizioni 
     else {
         console.log(i);
-        containerElement.innerHTML = containerElement.innerHTML + "<div class='box1'>" + i + "</div>";
+        containerElement.innerHTML += "<div class='box1'>" + i + "</div>";
     }     
 }
