@@ -1,3 +1,4 @@
+/* Regole generali */
 *{
     margin: 0;
     padding: 0;
@@ -8,42 +9,69 @@ html{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+/* Regole titolo */
+.titolo{
+    margin-top: 50px;
+}
+
 h1{
     color: white;
     font-size: 4rem;
     text-align: center;
 }
 
+
+/* Regole contenitore dei box */
 #container{
     max-width: 1080px;
     width: 100%;
-    margin-top: 50px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
+/* Box (i) */
 .box1{
     width: 80px;
     height: 80px;
     margin: 10px;
     background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Box "Fizz" */
 .box2{
     width: 80px;
     height: 80px;
     margin: 10px;
     background-color: #0bd6a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Box "Buzz" */
 .box3{
     width: 80px;
     height: 80px;
     margin: 10px;
     background-color: #ffd166;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+/* Box "FizzBuzz" */
 .box4{
     width: 80px;
     height: 80px;
     margin: 10px;
     background-color: #f0466f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
