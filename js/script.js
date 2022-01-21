@@ -7,7 +7,7 @@
 let containerElement = document.getElementById('container');
 
 // Ciclo dei numeri da 1 - 100
-for (i=1; i <=100; i++){
+for (let i=1; i <=100; i++){
     
     //Condizione multipli di 3 e 5
     if (i % 3 == 0 && i % 5 == 0){
