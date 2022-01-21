@@ -12,6 +12,7 @@ for (let i=1; i <=100; i++){
     //Condizione numeri multipli di 3 e 5
     if (i % 3 == 0 && i % 5 == 0){
         console.log("FizzBuzz");
+        
         // Appendo la stringa "<div class='box4'>" + "testo" + "</div>" a alla variabile <div id="container"></div>
         // Assegno il valore della "stringa" a containerElement
         containerElement.innerHTML += "<div class='box4'>" + "FizzBuzz" + "</div>";
